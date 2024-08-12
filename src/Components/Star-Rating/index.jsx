@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
-import "./style.css";
+import "./Style.css";
 
 // eslint-disable-next-line react/prop-types
 const StarRating = ({ noOfStars = 5 }) => {

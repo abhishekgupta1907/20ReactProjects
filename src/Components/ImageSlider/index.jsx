@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
-import "./style.css";
+import "./Style.css";
 
 // eslint-disable-next-line react/prop-types
 export default function ImageSlider({ url, limit = 5, page = 1 }) {
