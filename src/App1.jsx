@@ -5,9 +5,12 @@
 // import LoadMoreData from "./Components/Load-More-Data/Index";
 // import TreeView from "./Components/Tree-View/Index";
 
-import TabTest from "./Components/Custom-Tabs/Tab-Test";
+import ModalTest from "./Components/Custom-Modal_Popup/Modal-Test";
+import GithubProfileFinder from "./Components/GitHub-Profile_Finder/Index";
 
-import ScrollIndicator from "./Components/Custom-Scroll-Indicator/Index";
+//import TabTest from "./Components/Custom-Tabs/Tab-Test";
+
+//import ScrollIndicator from "./Components/Custom-Scroll-Indicator/Index";
 //import LightDarkMode from "./Components/Light-Dark-Mode-Theme/Index";
 
 // import QRCodeGenerator from "./Components/QRGenerator/Index";
@@ -28,8 +31,10 @@ const App1 = () => {
             {/* <TreeView menus={menus} /> */}
             {/* <QRCodeGenerator /> */}
             {/* <LightDarkMode /> */}
-            <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
-            <TabTest />
+            {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+            <TabTest /> */}
+            <ModalTest />
+            <GithubProfileFinder />
         </>
     );
 };
